@@ -31,7 +31,11 @@
 # How does a for loop iterate through a string?
 
 def one(string):
-    return ""
+    result = ''
+    for letters in string:
+        result += letters*3
+    print(result)
+    return result
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
