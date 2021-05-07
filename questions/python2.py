@@ -56,7 +56,16 @@ def one(string):
 
 
 def two(number):
-    return False
+    a = 0
+    for i in range (1,number+1):
+        if number%i == 0:
+            a = a+1
+    if a==2:
+        print ("True")
+        return True
+    elif a>2:
+        print ("False")
+        return False
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
