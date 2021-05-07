@@ -149,8 +149,24 @@ def four(string1,string2):
     # The random module contains a function called randint.
 
 
+import random as r
+
 def five():
-    return []
+    numbers = []
+    a = r.choice(range(100,200,2))
+    numbers.append(a)
+    b = r.choice(range(100,200,2))
+    numbers.append(b)
+    c = r.choice(range(100,200,2))
+    numbers.append(c)
+    d = r.choice(range(100,200,2))
+    numbers.append(d)
+    e = r.choice(range(100,200,2))
+    numbers.append(e)
+    print(numbers)
+    return(numbers)
+
+five()
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
