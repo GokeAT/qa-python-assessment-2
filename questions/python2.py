@@ -188,7 +188,13 @@ five()
 
 
 def six(string):
-    return False
+    last_chars = string[-2:]
+    if last_chars == 'py':
+        print ("True")
+        return True
+    else:
+        print ("False")
+        return False
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
