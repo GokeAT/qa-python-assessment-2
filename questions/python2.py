@@ -126,8 +126,11 @@ def three(a):
     # How would you seperate a string into characters?
 
 
-def four(string1, string2):
-    return ""
+def four(string1,string2):
+    for i in range(0,99):
+        newstring = string1[i] + string2[i]
+        print (newstring)
+        return newstring
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
