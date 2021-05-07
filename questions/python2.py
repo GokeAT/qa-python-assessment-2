@@ -188,13 +188,15 @@ five()
 
 
 def six(string):
-    last_chars = string[-2:]
+    newstring = string.lower()
+    last_chars = newstring[-2:]
     if last_chars == 'py':
         print ("True")
         return True
     else:
         print ("False")
         return False
+
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
